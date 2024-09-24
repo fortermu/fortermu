@@ -1,51 +1,34 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Login</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
 
-<div class="container">
-  <div class="name">MALIK MEHTAB</div>
-  <div class="band"></div>
-</div>
+    <div class="container">
+        <div class="login-box">
+            <h2>Login</h2>
+            <form>
+                <div class="input-box">
+                    <input type="text" required>
+                    <label>Username</label>
+                </div>
+                <div class="input-box">
+                    <input type="password" required>
+                    <label>Password</label>
+                </div>
+                <button type="submit" class="neon-button">Login</button>
+            </form>
+        </div>
 
+        <div class="contact-buttons">
+            <a href="https://wa.me/+48459071415" class="contact-btn whatsapp" target="_blank">WhatsApp</a>
+            <a href="https://t.me/Musa_x0" class="contact-btn telegram" target="_blank">Telegram</a>
+        </div>
+    </div>
 
-
-.container {
-  position: relative;
-  width: 300px;
-  height: 200px;
-  background-color: #f0f0f0;
-  border-radius: 10px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
-.name {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  font-size: 24px;
-  font-weight: bold;
-  color: #333;
-}
-
-.band {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  border-radius: 10px;
-  border: 10px solid transparent;
-  border-top-color: #ff0000;
-  border-right-color: #00ff00;
-  border-bottom-color: #0000ff;
-  border-left-color: #ffff00;
-  animation: rotate 5s linear infinite;
-}
-
-@keyframes rotate {
-  0% {
-    transform: rotate(0deg);
-  }
-  100% {
-    transform: rotate(360deg);
-  }
-}
-
+    <script src="script.js"></script>
+</body>
+</html>
